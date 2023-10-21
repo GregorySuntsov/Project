@@ -27,11 +27,12 @@ a {
   color: #000000;
   text-decoration: none;
   font-size: 18px;
+  display: inline-block;
 }
 
 a:hover {
   color: #8B4513;
-  font-size: 20px;
+  transform: scale(1.1);
 }
 
 nav {
