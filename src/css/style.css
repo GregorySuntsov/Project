@@ -15,7 +15,7 @@ ul {
 }
 
 li {
-  display: inline;
+  display: inline-block   ;
   margin-right: 100px;
 }
 
