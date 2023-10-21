@@ -1,16 +1,26 @@
 body {
-  background-color: #ffe2b0;
+  background-color: #FFE2B0;
 }
 
 header {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 ul {
   list-style-type: none;
   text-align: center;
   margin: 10px 0px 10px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  margin-right: 100px;
+}
+
+li:last-child {
+  margin-right: 0px;
 }
 
 a {
@@ -19,10 +29,16 @@ a {
   font-size: 18px;
 }
 
-.one {
-  
+a:hover {
+  color: #8B4513;
+  font-size: 20px;
 }
 
-.two {
-  
+nav {
+  margin-bottom: 20px;
+}
+
+.section-about {
+  height: 640px;
+  background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat fixed;
 }
