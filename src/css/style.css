@@ -80,6 +80,10 @@ nav {
   margin: 0;
 }
 
+.section-discription {
+  margin-bottom: 20px;
+}
+
 .section-discription__icon-box {
   text-align: center;
   margin-bottom: 20px ;
@@ -110,4 +114,44 @@ nav {
   margin: 0;
   width: 1000px;
   margin: 0 auto;
+}
+
+.section-map {
+  margin-bottom: 20px;
+}
+
+.section-map__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-map__url {
+  font-size: 36px;
+  display: inline-block;
+}
+
+.section-map__url:hover {
+  color: #D44141;
+  transform: scale(1.1);
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  height: 80px;
+}
+
+.footer-line {
+  width: 1024px;
+  height: 1px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #999999;
+}
+
+.footer-nav {
+  margin: 0 0 0 0;
 }
